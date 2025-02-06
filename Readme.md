@@ -22,7 +22,7 @@ Set PINECONE_API_KEY and OPENAI_API_KEY in your environment or Streamlit secrets
 ## Usage
 Run the Streamlit App
 ```
-streamlit run chatmed-v6.py
+streamlit run main.py
 ```
 
 ## Code Overview
