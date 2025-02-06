@@ -1,5 +1,5 @@
-# Vet Medical Chatbot
-This project is a Veterinarian Q&A Assistant powered by LangChain, Pinecone, and OpenAI's GPT. It uses retrieval-augmented generation (RAG) to answer questions on pet health. The assistant, referred to as "Dr. Steve," provides responses based only on the context of loaded documents, avoiding hallucination by sticking strictly to provided information.
+# Chatdoc
+This project document question answering chatbot powered by LangChain, Pinecone, and OpenAI's GPT. It uses retrieval-augmented generation (RAG) to answer questions. 
 
 ## Features
 - PDF Text Processing: Loads and processes content from PDF files.
@@ -24,8 +24,6 @@ Run the Streamlit App
 ```
 streamlit run chatmed-v6.py
 ```
-## Interact with Dr. Steve
-- Enter your query in the chat input, and Dr. Steve will provide responses based on the context from medical documents.
 
 ## Code Overview
 - initialize_resources():
